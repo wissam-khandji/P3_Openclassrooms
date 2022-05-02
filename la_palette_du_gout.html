@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=375" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./restaurants.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+        <title>La palette du goût</title>
+    </head>
+    <body>
+        <main id="container"> <!--page main container-->
+            <header class="head"> <!--page header-->
+                <div class="head--top">
+                    <a class="head--topreturn" href="index.html"><i class="fas fa-arrow-left"></i></a>
+                    <img class="head--topimg" src="./images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood">
+                </div>
+                <img class="head--img" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
+            </header>
+            <section class="menu"> <!--menus section-->
+                <header class="menu--head">
+                    <h1 class="menu--headtitle">La palette du goût</h1>
+                    <div class="iconmenu">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </header>
+                <div class="articles">
+                    <aside class="starters"> <!--starters aside-->
+                        <h2 class="starters--title">ENTR&Eacute;ES</h2>
+                        <article class="starters--art fadein1">
+                            <h3 class="starters--arttitle">Fricassée d'escargot</h3>
+                            <div class="starters--div">
+                                <p class="starters--description">Au piment d'espelette</p>
+                                <p class="starters--price">25&euro;</p>
+                            </div>
+                            <span class="starters--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="starters--art fadein2">
+                            <h3 class="starters--arttitle">Foie gras de canard mi-cuit</h3>
+                            <div class="starters--div">
+                                <p class="starters--description">Et ses copeaux de truffe noire</p>
+                                <p class="starters--price">35&euro;</p>
+                            </div>
+                            <span class="starters--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="starters--art fadein3">
+                            <h3 class="starters--arttitle">Oeuf au plat</h3>
+                            <div class="starters--div">
+                                <p class="starters--description">Assaisonné à la truffe sur lit de caviar</p>
+                                <p class="starters--price">20&euro;</p>
+                            </div>
+                            <span class="starters--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                    </aside>
+                    <aside class="dishes"> <!--dishes aside-->
+                        <h2 class="dishes--title">PLATS</h2>
+                        <article class="dishes--art fadein1">
+                            <h3 class="dishes--arttitle">Filet de boeuf aux herbes</h3>
+                            <div class="dishes--div">
+                                <p class="dishes--description">Accompagné de sa ribambelle de légumes</p>
+                                <p class="dishes--price">40&euro;</p>
+                            </div>
+                            <span class="dishes--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="dishes--art fadein2">
+                            <h3 class="dishes--arttitle">Parmentier de queue de boeuf</h3>
+                            <div class="dishes--div">
+                                <p class="dishes--description">&Agrave; la truffe noire sur sa purée de panais</p>
+                                <p class="dishes--price">35&euro;</p>
+                            </div>
+                            <span class="dishes--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="dishes--art fadein3">
+                            <h3 class="dishes--arttitle">Filet de Turbot</h3>
+                            <div class="dishes--div">
+                                <p class="dishes--description">Aux agrumes</p>
+                                <p class="dishes--price">44&euro;</p>
+                            </div>
+                            <span class="dishes--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                    </aside>
+                    <aside class="dessert"> <!--desserts aside-->
+                        <h2 class="dessert--title">DESSERTS</h2>
+                        <article class="dessert--art fadein1">
+                            <h3 class="dessert--arttitle">Paris-Brest</h3>
+                            <div class="dessert--div">
+                                <p class="dessert--description">Revisité</p>
+                                <p class="dessert--price">18&euro;</p>
+                            </div>
+                            <span class="dessert--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="dessert--art fadein2">
+                            <h3 class="dessert--arttitle">Macaron au chocolat d'exception</h3>
+                            <div class="dessert--div">
+                                <p class="dessert--description">Et glace à la vanille de Madagascar</p>
+                                <p class="dessert--price">22&euro;</p>
+                            </div>
+                            <span class="dessert--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                        <article class="dessert--art fadein3">
+                            <h3 class="dessert--arttitle">Mousse au chocolat</h3>
+                            <div class="dessert--div">
+                                <p class="dessert--description">Au piment d'espelette et à la truffe noire</p>
+                                <p class="dessert--price">23&euro;</p>
+                            </div>
+                            <span class="dessert--check"><i class="fas fa-check-circle"></i></span>
+                        </article>
+                    </aside>
+                </div>
+                <button class="order--button" type="button"> <!--order button-->
+                    <span class="order--buttontext">Commander</span>
+                </button>
+            </section>
+            <footer class="footer"> <!--page footer-->
+                <h2 class="footer--logo">ohmyfood</h2>
+                <div class="footer--links">
+                    <div class="footer--line1">
+                        <a class="footer--link1" href="#">
+                            <i class="fas fa-utensils"></i>
+                            <p class="link1--text">Proposer un restaurant</p>
+                        </a>
+                    </div>
+                    <div class="footer--line2">
+                        <a class="footer--link2" href="#">
+                            <i class="fas fa-hands-helping"></i>
+                            <p class="link2--text">Devenir partenaire</p>
+                        </a>
+                    </div>
+                    <a class="footer--link3" href="#">
+                        <p class="link3--text">Mentions légales</p>
+                    </a>
+                    <a class="footer--link4" href="mailto:">
+                        <p class="link4--text">Contact</p>
+                    </a>
+                </div>
+            </footer>
+            <script src="https://kit.fontawesome.com/5b77b1eedb.js" crossorigin="anonymous"></script>
+        </main>
+    </body>
+</html>
